@@ -1,0 +1,59 @@
+/* reset CSS */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #e6fbff !important;
+}
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<< tableau >>>>>>>>>>>>>>>>>>>>>>>> */
+
+.table_explorer{
+  width: 90%;
+  max-width: 750px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px lightgrey;
+  overflow: scroll;
+  max-height: 400px;
+  background-color: white;
+}
+tr{
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+th{
+  text-align: left;
+  padding: 0 15px;
+}
+td{
+  padding: 0 15px;
+}
+
+.container_table{
+  max-height: 70vh;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+/* <<<<<<<<<<<<<<<< popup >>>>>>>>>>>>>>>>*/
+.popup{
+  display: none;
+  height: 100px;
+  width: 280px;
+  border-top: 3px solid #0094a7;
+  border-left: 3px solid #0094a7;
+  border-bottom: 3px solid #0094a7;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 0px 10000px #00000085;
+  position: absolute;
+  background-color: #5ed1df;
+  bottom: 7%;
+  right: 0;
+}
