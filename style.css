@@ -11,7 +11,14 @@ body{
 
 
 /* <<<<<<<<<<<<<<<<<<<<<< tableau >>>>>>>>>>>>>>>>>>>>>>>> */
-
+.table_move{
+  position: absolute;
+  top: -25px;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 .table_explorer{
   width: 90%;
   max-width: 750px;
@@ -20,6 +27,8 @@ body{
   overflow: scroll;
   max-height: 400px;
   background-color: white;
+  width: 100%;
+  margin: auto;
 }
 tr{
   border-bottom: 1px solid black;
@@ -36,9 +45,16 @@ td{
 .container_table{
   max-height: 70vh;
   overflow: auto;
+  flex-direction: column;
+  padding-top: 10px;
+  position: relative;
+  width: 90%;
+}
+.content_container_table{
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  width: 100%;
+  position: relative;
 }
 
 /* <<<<<<<<<<<<<<<< popup >>>>>>>>>>>>>>>>*/

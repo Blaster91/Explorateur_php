@@ -11,232 +11,239 @@
       <h1>Explorateur de fichiers PHP</h1>
     </header>
     <section>
-      <h2>index</h2>
-      <div class="container_table">
-        <table class="table_explorer">
-          <thead>
-            <tr>
-              <th>
-                nom
-              </th>
-              <th>
-                action
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                explorer.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                adobe.exe
-              </td>
-              <td>
-                <a href="#">supprimé</a>
-              </td>
-            </tr>
+      <h2 class="mb-5">index /</h2>
+<div class="content_container_table">
+  <div class="table_move">
+    <a href="#"><i class="fas fa-arrow-left"></i> Retour </a>
+    <a href="#">Précédent<i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="container_table">
+    <table class="table_explorer">
+      <thead>
+        <tr>
+          <th>
+            nom
+          </th>
+          <th>
+            action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            explorer.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            adobe.exe
+          </td>
+          <td>
+            <a href="#">supprimé</a>
+          </td>
+        </tr>
 
-          </tbody>
-        </table>
-      </div>
+      </tbody>
+    </table>
+  </div>
+</div>
+
       <div class="popup">
       </div>
     </section>
