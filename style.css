@@ -3,18 +3,42 @@
   margin: 0;
   padding: 0;
 }
-
+a{
+  text-decoration: none !important;
+}
+html{
+  height: 100%;
+}
 body{
   background-color: #6d69a0 !important;
+  height: 100%;
 }
 
 h1, h2{
   color: white;
   text-align: center;
 }
-
+/* <<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>>>>>>>>>>*/
+header{
+display: flex !important;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.logo_php{
+  height: 40px;
+  width: 60px;
+}
 
 /* <<<<<<<<<<<<<<<<<<<<<< tableau >>>>>>>>>>>>>>>>>>>>>>>> */
+#table_explorer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  padding: 0 20px;
+}
 .table_move{
   position: absolute;
   top: -10px;
@@ -22,11 +46,34 @@ h1, h2{
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #252341;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-
 }
+.link_table_move{
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.3s all;
+}
+.link_table_move_left{
+    border-top-left-radius: 5px;
+}
+.link_table_move_right{
+    border-top-right-radius: 5px;
+}
+.space_bar{
+  border-right: 1px solid #151425;
+  height: 20px;
+}
+.link_table_move:hover{
+  color: white;
+  background-color: #151425;
+}
+
 .table_explorer{
   max-width: 750px;
   border-radius: 3px;
